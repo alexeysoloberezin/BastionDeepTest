@@ -61,12 +61,6 @@ export const sidebarItems: SidebarItem[] = [
   },
   ...items,
   {
-    title: "Хоткеи",
-    description: "",
-    url: "/hotkeys",
-    icon: Keyboard,
-  },
-  {
     title: "Свернуть",
     description: "Свернуть панель навигации",
     url: "#",

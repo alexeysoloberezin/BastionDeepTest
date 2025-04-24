@@ -2,16 +2,10 @@
 import MainCard from '@shared/ui/card/MainCard.vue'
 import items from '@app/configs/sidebar';
 import { useRouter } from 'vue-router';
-import { Keyboard } from 'lucide-vue-next';
 
 const router = useRouter()
 
-const els = [...items, {
-  title: 'Горячие клавиши',
-  icon: Keyboard,
-  url: '/hotkeys',
-  description: 'Горячие клавиши для быстрого перемещения по приложению'
-}]
+const els = items
 </script>
 
 <template>

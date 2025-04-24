@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import TableMain from '@entities/ui/table/TableMain.vue'
 import { Text } from '@shared/ui/typography'
+
+const version = __APP_VERSION__
 </script>
 
 <template>

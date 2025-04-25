@@ -3,9 +3,6 @@ import formatDateTime from "@shared/services/dates/formatedDateTime";
 
 const TABLE_COLUMNS: Record<string, { key: string, name: string, format?: any }[]> = {
     [API_ROUTES.attack]: [{
-        key: 'id',
-        name: 'id'
-    }, {
         key: 'cidrip',
         name: 'cidrip'
     }, {

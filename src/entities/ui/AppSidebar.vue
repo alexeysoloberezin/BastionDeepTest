@@ -75,7 +75,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <Sidebar>
+    <Sidebar >
         <SidebarContent>
             <SidebarGroup>
                 <SidebarGroupLabel>

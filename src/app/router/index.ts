@@ -14,6 +14,7 @@ const routes: RouteRecordRaw[] = [
   { path: '/filevuln', component: () => import('@pages/FileVuln.vue') },
   { path: '/kerberos', component: () => import('@pages/Kerberos.vue') },
   { path: '/hotkeys', component: () => import('@pages/Hotkeys.vue') },
+  { path: '/simulation/:id', component: () => import('@pages/Simulation.vue') },
 ];
 
 const router = createRouter({

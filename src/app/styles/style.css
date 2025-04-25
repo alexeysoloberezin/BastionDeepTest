@@ -169,3 +169,11 @@ html {
 }
 
 body {}
+
+p {
+  font-family: sans-serif;
+}
+
+body .p-drawer-right .p-drawer {
+  width: 25rem;
+}

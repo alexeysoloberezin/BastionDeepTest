@@ -21,10 +21,6 @@ import { Input } from '@shared/ui/input'
                     <Text as="h5" variant="muted" class="block mb-1">Даты</Text>
                     <RangeDatePicker />
                 </div>
-                <hr />
-                <div>
-                    <Input placeholder="Поиск" />
-                </div>
             </div>
         </PopoverContent>
     </Popover>
